@@ -361,9 +361,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton(
-                    "👨🏼‍💻Developer", url='https://t.me/kinu6'),
+                    "👨🏼‍💻Developer", url='https://t.me/developer_x_app'),
                 InlineKeyboardButton("⚙️Update Channel",
-                                     url="https://t.me/TMWAD")
+                                     url="https://t.me/setting")
             ],
             [
                 InlineKeyboardButton("🧿Close", callback_data='close')
@@ -384,9 +384,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton(
-                    "👨🏼‍💻Developer", url='https://t.me/kinu6'),
+                    "👨🏼‍💻Developer", url='https://t.me/developer_x_app'),
                 InlineKeyboardButton("⚙️Update Channel",
-                                     url="https://t.me/TMWAD")
+                                     url="https://t.me/setting")
             ],
             [
                 InlineKeyboardButton("🧿Close", callback_data='close')
@@ -407,9 +407,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton(
-                    "👨🏼‍💻Developer", url='https://t.me/kinu6'),
+                    "👨🏼‍💻Developer", url='https://t.me/developer_x_app'),
                 InlineKeyboardButton("⚙️Update Channel",
-                                     url="https://t.me/TMWAD")
+                                     url="https://t.me/setting")
             ]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
